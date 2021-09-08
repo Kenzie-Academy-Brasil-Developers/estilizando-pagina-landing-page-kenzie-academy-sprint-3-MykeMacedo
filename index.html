@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="icon-96x96.webp">
+  <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Landing Page Kenzie Academy</title>
 </head>
@@ -53,7 +54,7 @@
     <section class="secaoSobre">
 
       <article class="flex">
-        
+        <article class="flex1">
         <!-- COLUNA ESQUERDA -->
         <div class="flex-col">
 
@@ -62,7 +63,7 @@
           </p>
 
           <span>Consectetur adipisicing elit 5 Suscipit deleniti incidunt nam quibusdam fugit reprehenderit aperiam.</span>
-
+         
           <button>Subscribe</button>
 
         </div>
@@ -76,19 +77,20 @@
           </figure>      
 
         </div>
-
+      </article>
         <!-- COLUNA ESQUERDA -->
-        <div class="flex-col">
+        <article class="flex2">
+        <div class="flex-col1">
 
             <figure>
-              <img src="assets/img/JavaScript-logo.png" alt="Java Script">
+              <img src="assets/img/JavaScript-logo.png" alt="Java Script" width="50px">
               <figcaption>Java Script</figcaption>  
             </figure>      
   
           </div>
 
         <!-- COLUNA DIREITA -->
-        <div class="flex-col">
+        <div class="flex-col1">
 
             <h2> LOREM IPSUM DOLOR SIT JAVASCRIPT</h2>
             <ul>
@@ -101,7 +103,7 @@
 
         </div>
 
-        
+      </article>
 
       </article>
 
@@ -131,7 +133,7 @@
           </li>
 
           <li>
-            <img src="assets/img/react.png" alt="">
+            <img src="assets/img/react.png" alt=""> 
             <h3>React</h3>
             <p>The standard Lorem Ipsum passage,<br> used since the 1500s</p>
           </li>
@@ -204,13 +206,15 @@
 
     <section class="secaoContato">
 
-      <div class="flex">
+      <div class="flex1">
 
         <!-- COLUNA LADO ESQUERDO -->
-        <div class="flex-col">
+        <div class="flex-col2">
           
           <div class="secaoContato-informacoes">
           
+            <h2>Contact</h2>
+
             <p>Contact us and we'll get back to you within 24 hours.</p>
             
             <ul>
@@ -224,24 +228,19 @@
         </div>
 
         <!-- COLUNA LADO DIRETO -->
-        <div class="flex-col">
-          
-          <h2>Contact</h2>
+        <div class="flex-col2">
           
           <form action="">
 
             <div class="form-input-model">
-              <label for="nome">Nome</label>
               <input type="text" placeholder="Name" id="nome" name="nome">
             </div>
 
             <div class="form-input-model">
-              <label for="email">E-mail</label>
               <input type="text" placeholder="E-mail" id="email" name="email">
             </div>
 
             <div class="form-input-model">
-              <label for="mensagem">E-mail</label>
               <textarea name="mensagem" id="mensagem"></textarea>
             </div>
 
